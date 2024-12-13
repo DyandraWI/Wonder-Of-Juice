@@ -36,7 +36,7 @@ function App() {
   };
   
   async function getData() {
-    const url = "http://localhost:3000/menu-jus";
+    const url = "https://brindle-plump-archaeopteryx.glitch.me/menu-jus";
     try {
       const response = await fetch(url);
       if (!response.ok) {
