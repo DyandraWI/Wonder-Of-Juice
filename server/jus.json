@@ -1,0 +1,52 @@
+[
+    {
+      "nama_jus": "Jus Alpukat",
+      "imageUrl": "https://doktersehat.com/wp-content/uploads/2017/02/manfaat-jus-alpukat-doktersehat.jpg",
+      "harga": 15000
+    },
+    {
+      "nama_jus": "Jus Mangga",
+      "imageUrl": "https://images.deliveryhero.io/image/fd-my/LH/i2xp-hero.jpg",
+      "harga": 12000
+    },
+    {
+      "nama_jus": "Jus Strawberry",
+      "imageUrl": "https://fonetekno.com/wp-content/uploads/2022/04/strawberryjuice.jpg",
+      "harga": 15000
+    },
+    {
+      "nama_jus": "Jus Jeruk",
+      "imageUrl": "https://www.yesdok.com/visual/slideshow/article_9de9c8f0fa8555e3c8f9a55d4d46d11a07153109.jpg?w=1200",
+      "harga": 10000
+    },
+    {
+      "nama_jus": "Jus Semangka",
+      "imageUrl": "https://cupsealer.me/wp-content/uploads/2020/01/Cara-Membuat-Jus-Semangka-1.jpg",
+      "harga": 15000
+    },
+    {
+      "nama_jus": "Jus Pisang",
+      "imageUrl": "https://cupsealer.me/wp-content/uploads/2018/03/jus-pisang.jpg",
+      "harga": 12000
+    },
+    {
+      "nama_jus": "Jus Tomat",
+      "imageUrl": "https://asset.kompas.com/crops/hXqJcAprfIWWXGoAnHvozTALgRQ=/0x75:1000x575/750x500/data/photo/2019/06/19/1237816996.jpg",
+      "harga": 10000
+    },
+    {
+      "nama_jus": "Jus Wortel",
+      "imageUrl": "https://cupsealer.me/wp-content/uploads/2017/06/wortelrevisi.png",
+      "harga": 12000
+    },
+    {
+      "nama_jus": "Jus Nanas",
+      "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*TvRWAQb58XLxIYHGqfVVhQ.jpeg",
+      "harga": 15000
+    },
+    {
+      "nama_jus": "Jus Kiwi",
+      "imageUrl": "https://img.cuisineaz.com/660x660/2018/11/19/i144284-jus-de-kiwi.jpeg",
+      "harga": 15000
+    }
+  ]
