@@ -1,4 +1,5 @@
 import App from "../App"
+import React from 'react';
 
 function CardItem({menu_jus, addToCart}) {
     return(

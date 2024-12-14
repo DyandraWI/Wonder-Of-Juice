@@ -66,6 +66,8 @@ body {
 
 .cart-icon {
   margin-right: 1rem;
+  position: absolute;
+  z-index: 1030;
 }
 
 .cart-icon .badge {
@@ -372,7 +374,7 @@ body {
   }
 }
 
-/* Mobile */
+/* Tablet */
 @media (max-width: 768px) {
   .hero {
     margin-top: -8vh;
@@ -402,6 +404,18 @@ body {
       rgba(243, 182, 100, 1) 20%,
       rgba(255, 255, 255, 0) 50%
     ); /* Adjust gradient */
+  }
+
+  .navbar .cart-icon {
+    right: 4.5rem;
+  }
+}
+
+@media (max-width: 320) {
+  .navbar .cart-icon {
+    position: absolute;
+    display: flex;
+    padding-right: -150rem;
   }
 }
 
