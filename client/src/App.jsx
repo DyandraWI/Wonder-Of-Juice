@@ -29,7 +29,7 @@ function App() {
   function removeFromCart(index) {
     const updatedCart = cart.filter((_, i) => i !== index);
     setCart(updatedCart);
-  }
+  }  
   
   // ? Mengangmbil data
   const [dataJus, setDataJus] = useState([]);
@@ -109,11 +109,17 @@ function App() {
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
      <div className="offcanvas-body d-flex flex-column gap-2">
-      {cart.map((element, index) => {
+     {cart.map((element, index) => {
         return (
-          <CartItem cart={element} key={index} removeFromCart={removeFromCart}  addToCart={addToCart}/>
+          <CartItem
+            cart={element}
+            key={index}
+            index={index}
+            removeFromCart={removeFromCart}
+          />
         );
       })}
+
 
       {/* Total Harga ddn CheckOut */}
       <div className="mt-4">

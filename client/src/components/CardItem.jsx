@@ -1,4 +1,4 @@
-import App from "../App"
+import App from "../App";
 import React from 'react';
 
 function CardItem({menu_jus, addToCart}) {
@@ -28,7 +28,7 @@ function CardItem({menu_jus, addToCart}) {
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="modal-body">
-              <img src={menu_jus.imageUrl} className="card-img-top" alt="image-juice" />
+              <img src={menu_jus.imageUrl} className="card-img-top" style={{ height: "300px", objectFit: "cover", padding: "10px" }} alt="image-juice" />
               <br />
               <br />
                 <p>

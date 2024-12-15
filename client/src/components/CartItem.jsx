@@ -1,9 +1,6 @@
-import React from 'react';
-
-function CartItem({ cart, index, removeFromCart, }) {
+function CartItem({ cart, index, removeFromCart }) {
   return (
-    <>
-      <div key={index} className="d-flex p-2 border rounded-2">
+    <div className="d-flex p-2 border rounded-2">
       <img
         src={cart.imageUrl}
         alt="gambar"
@@ -24,14 +21,12 @@ function CartItem({ cart, index, removeFromCart, }) {
       </div>
       <button
         className="btn btn-danger btn-sm align-self-center"
-        onClick={() => removeFromCart(index)}
+        onClick={() => removeFromCart(index)} // Pastikan index diteruskan
       >
         Hapus
       </button>
     </div>
-    </>
   );
 }
 
-
-export default CartItem;
+export default CartItem
